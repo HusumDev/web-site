@@ -1,5 +1,6 @@
 .pp {
     width: 200px;
+    height: 200px;
     border-radius: 100%;
     border: 3px solid rgb(255, 255, 255);
 }
@@ -8,18 +9,6 @@ p {
     display: inline;
 }
 
-.navbar {
-    width: 100%;
-}
-
-.navbar a {
-    float: left;
-    text-align: center;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-}
 
 .github {
     background-color: rgba(34, 34, 34, 0.6);
@@ -35,11 +24,4 @@ p {
 
 .code-language {
     background-color: rgba(34, 34, 34, 0.6);
-}
-
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-    }
 }
