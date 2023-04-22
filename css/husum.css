@@ -1,0 +1,27 @@
+.pp {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+p {
+    display: inline;
+}
+
+
+.github {
+    background-color: rgba(34, 34, 34, 0.6);
+}
+
+.github:hover {
+    background-color: rgba(46, 46, 46, 0.6);
+}
+
+.codeicon {
+    width: 25px;
+}
+
+.code-language {
+    background-color: rgba(34, 34, 34, 0.6);
+}

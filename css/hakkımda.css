@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 600; 700&display=swap');
+
+body {
+    background-color: rgb(30, 33, 34);
+    Line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.hakkımda-col {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.hakkımda-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.hakkımda-col h4::before {
+    content: '';
+    position: absolute;
+    Left: 0;
+    bottom: -10px;
+    background-color: rgb(220, 53, 69);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.hakkımda-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.hakkımda-col ul li {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.hakkımda-col ul li:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.col3 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col9 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col10 {
+    flex: 0 0 auto;
+    width: 38%;
+}
+
+.okul-title {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+@media(max-width: 767px) {
+    .hakkımda-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .hakkımda-col {
+        width: 100%;
+    }
+}
